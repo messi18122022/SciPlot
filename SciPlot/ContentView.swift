@@ -1,16 +1,19 @@
-//
-//  ContentView.swift
-//  SciPlot
-//
-//  Created by Musa Moin on 11.11.2024.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Projekt güpdätet")
+            Text("SciPlot")
+            
+            Button(action: {
+                print("Button wurde gedrückt!")
+            }) {
+                Text("Drücke mich")
+                    .padding()
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(8)
+            }
         }
         .padding()
     }
