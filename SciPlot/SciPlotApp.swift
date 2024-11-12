@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct SciPlotApp: App {
+struct MyMacApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
